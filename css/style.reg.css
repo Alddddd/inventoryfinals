@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin-top: 80px;
+    padding: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 550px; /* Adjust this padding for small screens */
+}
+.signup {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.form-title {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.signup-image {
+    margin-top: 20px;
+    text-align: center;
+}
+.signup-image img {
+    max-width: 100%;
+    height: auto;
+}
+.signup-image-link {
+    color: #333;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.signup-image-link:hover {
+    text-decoration: underline;
+}
+@media (min-width: 576px) {
+    .main {
+        padding-top: 200px; /* Increase padding for larger screens */
+    }
+}
+@media (min-width: 768px) {
+    .main {
+        padding-top: 250px; /* Further increase padding for medium screens */
+    }
+}
+@media (min-width: 992px) {
+    .main {
+        padding-top: 300px; /* Further increase padding for larger screens */
+    }
+
+    
+}
+@media (min-width: 1200px) {
+    .main {
+        padding-top: 350px; /* Maximum padding for extra large screens */
+    }
+}
