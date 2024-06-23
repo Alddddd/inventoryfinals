@@ -119,7 +119,7 @@ try {
                             <img class="avatar user-thumb" src="assets/images/author/avatar.png" alt="avatar">
                             <h4 class="user-name dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION['username'] ?> <i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="login.php?logout='1'">Log Out</a>
+                                <a class="dropdown-item" href="index2.php?logout='1'">Log Out</a>
                             </div>
                         </div>
                     </div>
@@ -173,6 +173,7 @@ try {
     <script src="assets/js/pie-chart.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <canvas id="itemChart"></canvas>
     <script>
 document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById('itemChart').getContext('2d');

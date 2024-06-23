@@ -12,7 +12,7 @@ if (!isset($_SESSION['username']) || $_SESSION['user_type'] != 'admin') {
 }
 
 
-if (isset($_GET['logout'])) {
+if (isset($_GET['logout'])) {   
     session_unset();
     session_destroy();
     header('Location: login.php');
